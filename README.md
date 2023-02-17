@@ -22,3 +22,10 @@ Now you have a socks proxy that's listening on `localhost:1080` and connected to
 CONTAINER ID   NAME                CPU %     MEM USAGE / LIMIT     MEM %     NET I/O           BLOCK I/O        PIDS
 050c12af22b9   openconnect-proxy   0.07%     5.055MiB / 3.841GiB   0.13%     3.36MB / 3.31MB   0B / 0B          5
 ```
+
+## Similar projects
+
+- [matinrco/openconnect-proxy](https://github.com/matinrco/openconnect-proxy) `--privileged`
+- [wtsi-hgi/openconnect-proxy](https://github.com/wtsi-hgi/openconnect-proxy) http proxy, socks proxy, openconnect 6.x
+- [cpitt/docker-openconnect-proxy](https://github.com/cpitt/docker-openconnect-proxy) `--privileged`
+- [wazum/openconnect-proxy](https://github.com/wazum/openconnect-proxy) `--privileged`
