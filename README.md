@@ -16,7 +16,7 @@ docker run -d --name openconnect-proxy --restart=on-failure:3 -p 1080:1080 -it -
 
 Now you have a socks proxy that's connected to Fortinet VPN listening on `localhost:1080`
 
-## Running resource consumption
+## Resource consumption
 
 ```bash
 CONTAINER ID   NAME                CPU %     MEM USAGE / LIMIT     MEM %     NET I/O           BLOCK I/O        PIDS
