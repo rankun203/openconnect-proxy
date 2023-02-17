@@ -18,4 +18,7 @@ Now you have a socks proxy that's connected to Fortinet VPN listening on `localh
 
 ## Running resource consumption
 
-<img width="951" alt="image" src="https://user-images.githubusercontent.com/2988555/219532647-be56a19e-cb4c-4b3f-b58f-aa2f49d762fb.png">
+```bash
+CONTAINER ID   NAME                CPU %     MEM USAGE / LIMIT     MEM %     NET I/O           BLOCK I/O        PIDS
+050c12af22b9   openconnect-proxy   0.07%     5.055MiB / 3.841GiB   0.13%     3.36MB / 3.31MB   0B / 0B          5
+```
