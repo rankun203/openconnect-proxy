@@ -14,7 +14,7 @@ cp .env.example .env # and edit it
 docker run -d --name openconnect-proxy --restart=on-failure:3 -p 1080:1080 -it --env-file=.env rankun203/openconnect-proxy
 ```
 
-Now you have a socks proxy that's connected to Fortinet VPN listening on `localhost:1080`
+Now you have a socks proxy that's listening on `localhost:1080` and connected to your corporate VPN
 
 ## Resource consumption
 
