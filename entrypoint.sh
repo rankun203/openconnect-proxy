@@ -14,6 +14,12 @@ run () {
     # Standard authentication
     echo $OPENCONNECT_PASSWORD | openconnect -u "$OPENCONNECT_USER" --passwd-on-stdin --script-tun --script="ocproxy -g -D 1080" $OPENCONNECT_OPTIONS $OPENCONNECT_URL
   fi
+
+  # Check if the user exists and create if it doesn't
+  if ! id -u $SOCKS_USERNAME > /dev/null 2>&1; then
+    useradd -r -s /bin/false $SOCKS_USERNAME && \
+    echo "$SOCKS_USERNAME:$SOCKS_PASSWORD" | chpasswd
+  fi
 }
 
 until (run); do
