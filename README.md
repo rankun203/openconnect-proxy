@@ -29,3 +29,4 @@ CONTAINER ID   NAME                CPU %     MEM USAGE / LIMIT     MEM %     NET
 - [wtsi-hgi/openconnect-proxy](https://github.com/wtsi-hgi/openconnect-proxy) http proxy, socks proxy, openconnect 6.x
 - [cpitt/docker-openconnect-proxy](https://github.com/cpitt/docker-openconnect-proxy) `--privileged`
 - [wazum/openconnect-proxy](https://github.com/wazum/openconnect-proxy) `--privileged`
+- [barpaw/openconnect-ocproxy](https://github.com/barpaw/openconnect-ocproxy) similar to this project
